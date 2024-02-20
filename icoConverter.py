@@ -34,6 +34,6 @@ lbl_system = tk.Label(win, text='\t [System] 변환할 파일을 선택해주세
 lbl_system.pack(side='left')
 
 path = os.getcwd()
-path_filename = path+"\\icon.ico"
+path_filename = path+"\icon.ico"
 
 win.mainloop()
